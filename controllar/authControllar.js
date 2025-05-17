@@ -1,4 +1,6 @@
-import { compare } from "bcrypt";
+import { compare } from "bcryptjs";
+import bcrypt from 'bcryptjs';
+
 import UserData from "../model/userModel.js";
 import pkg from "jsonwebtoken"; // Import the entire package
 const { sign } = pkg; // Destructure the 'sign' function
